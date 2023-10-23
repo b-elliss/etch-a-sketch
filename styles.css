@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: azure;
+}
+
+/* .main-container {
+    display: flex;
+    margin:25px;
+    margin-top: 25px;
+    justify-content: left;
+    align-items: top;
+} */
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    /* border: solid 1px black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 50%;
+    width: 580px;
+    height: 580px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexItem {
+    height: 36.25px;
+    width: 36.25px;
+    background-color: azure;
+}
+
+.clientFlexItem {
+    background-color: #f0ffff;
+}
+
+.button {
+    margin: 4px;
+    padding: 2px;
+}
